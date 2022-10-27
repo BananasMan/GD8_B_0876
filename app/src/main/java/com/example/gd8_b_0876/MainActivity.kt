@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         } catch (ignored: IOException) {
             Toast.makeText(
                 this@MainActivity,
-                "Ooops, something is wrong, try again later.",
+                "Ooops, something is wrong, try again later!",
                 Toast.LENGTH_SHORT
             ).show()
         }
